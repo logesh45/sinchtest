@@ -13,7 +13,33 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+       name.becomeFirstResponder()
+    }
+    @IBOutlet weak var name: UITextField!
+    @IBOutlet weak var callStatus: UILabel!
+    
+    @IBAction func Login(sender: AnyObject) {
+        print("Login")
+        
+        if name.text?.count == 0 {
+            return
+        }
+        NotificationCenter.default.post(name: NSNotification.Name("UserDidLoginNotification"), object: nil, userInfo: ["userId": name.text!])
+        print("Sent notification")
+        performSegue(withIdentifier: "mainView", sender: nil)
+        
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+            // If a remote notification was received which led to the application being started, the may have a transition from
+            // the login view controller directly to an incoming call view controller.
+            if (segue.identifier == "tocallVC") {
+                let callViewController = segue.destination as? CallViewController
+                callViewController?.call = sender as! SINCall
+            }
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,14 +48,6 @@ class LoginViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+  
 
 }

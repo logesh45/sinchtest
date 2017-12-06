@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		416CB1B5089169ED57C6A0FD /* Pods_Sinch_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0879A605876C01081D29C040 /* Pods_Sinch_test.framework */; };
+		4883F051877312E29E9F230A /* Pods_Sinch_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BB806D1E693D865F16A82E /* Pods_Sinch_testTests.framework */; };
+		93D55D20D371455AFAC6484E /* Pods_Sinch_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55DBE81950D570FEE034413 /* Pods_Sinch_testUITests.framework */; };
+		BB2293E61FCFEC56005EC720 /* AudioControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2293E01FCFEC56005EC720 /* AudioControllerDelegate.m */; };
+		BB2293E71FCFEC56005EC720 /* ringback.wav in Resources */ = {isa = PBXBuildFile; fileRef = BB2293E11FCFEC56005EC720 /* ringback.wav */; };
+		BB2293E81FCFEC56005EC720 /* SINCallKitProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2293E31FCFEC56005EC720 /* SINCallKitProvider.m */; };
+		BB2293E91FCFEC56005EC720 /* incoming.wav in Resources */ = {isa = PBXBuildFile; fileRef = BB2293E51FCFEC56005EC720 /* incoming.wav */; };
+		BB2293EB1FCFFAF0005EC720 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2293EA1FCFFAF0005EC720 /* LoginViewController.swift */; };
+		BB2293ED1FCFFB05005EC720 /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2293EC1FCFFB04005EC720 /* CallViewController.swift */; };
 		BBAF33481FBE7AF3003657AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF33471FBE7AF3003657AD /* AppDelegate.swift */; };
 		BBAF334A1FBE7AF3003657AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF33491FBE7AF3003657AD /* ViewController.swift */; };
 		BBAF334D1FBE7AF3003657AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAF334B1FBE7AF3003657AD /* Main.storyboard */; };
@@ -15,6 +24,8 @@
 		BBAF33551FBE7AF3003657AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAF33531FBE7AF3003657AD /* LaunchScreen.storyboard */; };
 		BBAF33601FBE7AF3003657AD /* Sinch_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF335F1FBE7AF3003657AD /* Sinch_testTests.swift */; };
 		BBAF336B1FBE7AF3003657AD /* Sinch_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF336A1FBE7AF3003657AD /* Sinch_testUITests.swift */; };
+		BBC754CC1FD0555100CF2254 /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC754CB1FD0555100CF2254 /* CallKit.framework */; };
+		BBC754CE1FD0556700CF2254 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC754CD1FD0556700CF2254 /* PushKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		029F563B1177C5F39F1200A1 /* Pods-Sinch testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sinch testTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sinch testTests/Pods-Sinch testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0879A605876C01081D29C040 /* Pods_Sinch_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sinch_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA5AC49A4EB2BD8E9CFC8E3 /* Pods-Sinch test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sinch test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sinch test/Pods-Sinch test.debug.xcconfig"; sourceTree = "<group>"; };
+		1ED67B1A0AA6F610B0FA368C /* Pods-Sinch test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sinch test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sinch test/Pods-Sinch test.release.xcconfig"; sourceTree = "<group>"; };
+		3FDF5713B2F9EDDE35B0C130 /* Pods-Sinch testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sinch testUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sinch testUITests/Pods-Sinch testUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93BB806D1E693D865F16A82E /* Pods_Sinch_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sinch_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99AECA056FA42DFB15945845 /* Pods-Sinch testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sinch testUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sinch testUITests/Pods-Sinch testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB2293DC1FCFE721005EC720 /* Sinch test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sinch test.entitlements"; sourceTree = "<group>"; };
+		BB2293E01FCFEC56005EC720 /* AudioControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioControllerDelegate.m; sourceTree = "<group>"; };
+		BB2293E11FCFEC56005EC720 /* ringback.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ringback.wav; sourceTree = "<group>"; };
+		BB2293E21FCFEC56005EC720 /* SINCallKitProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINCallKitProvider.h; sourceTree = "<group>"; };
+		BB2293E31FCFEC56005EC720 /* SINCallKitProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINCallKitProvider.m; sourceTree = "<group>"; };
+		BB2293E41FCFEC56005EC720 /* AudioControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioControllerDelegate.h; sourceTree = "<group>"; };
+		BB2293E51FCFEC56005EC720 /* incoming.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = incoming.wav; sourceTree = "<group>"; };
+		BB2293EA1FCFFAF0005EC720 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BB2293EC1FCFFB04005EC720 /* CallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
 		BBAF33441FBE7AF3003657AD /* Sinch test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sinch test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAF33471FBE7AF3003657AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBAF33491FBE7AF3003657AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +76,11 @@
 		BBAF33661FBE7AF3003657AD /* Sinch testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sinch testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAF336A1FBE7AF3003657AD /* Sinch_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sinch_testUITests.swift; sourceTree = "<group>"; };
 		BBAF336C1FBE7AF3003657AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBAF33781FBE7C91003657AD /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		BBC754CB1FD0555100CF2254 /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
+		BBC754CD1FD0556700CF2254 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		EAF83FF6A59FFDF873AE899C /* Pods-Sinch testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sinch testTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sinch testTests/Pods-Sinch testTests.release.xcconfig"; sourceTree = "<group>"; };
+		F55DBE81950D570FEE034413 /* Pods_Sinch_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sinch_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC754CE1FD0556700CF2254 /* PushKit.framework in Frameworks */,
+				BBC754CC1FD0555100CF2254 /* CallKit.framework in Frameworks */,
+				416CB1B5089169ED57C6A0FD /* Pods_Sinch_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4883F051877312E29E9F230A /* Pods_Sinch_testTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +106,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D55D20D371455AFAC6484E /* Pods_Sinch_testUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1305CF5D43C404820F2CE302 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBC754CD1FD0556700CF2254 /* PushKit.framework */,
+				BBC754CB1FD0555100CF2254 /* CallKit.framework */,
+				0879A605876C01081D29C040 /* Pods_Sinch_test.framework */,
+				93BB806D1E693D865F16A82E /* Pods_Sinch_testTests.framework */,
+				F55DBE81950D570FEE034413 /* Pods_Sinch_testUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB2293DF1FCFEC14005EC720 /* additional files */ = {
+			isa = PBXGroup;
+			children = (
+				BB2293E41FCFEC56005EC720 /* AudioControllerDelegate.h */,
+				BB2293E01FCFEC56005EC720 /* AudioControllerDelegate.m */,
+				BB2293E51FCFEC56005EC720 /* incoming.wav */,
+				BB2293E11FCFEC56005EC720 /* ringback.wav */,
+				BB2293E21FCFEC56005EC720 /* SINCallKitProvider.h */,
+				BB2293E31FCFEC56005EC720 /* SINCallKitProvider.m */,
+			);
+			path = "additional files";
+			sourceTree = "<group>";
+		};
 		BBAF333B1FBE7AF3003657AD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +145,8 @@
 				BBAF335E1FBE7AF3003657AD /* Sinch testTests */,
 				BBAF33691FBE7AF3003657AD /* Sinch testUITests */,
 				BBAF33451FBE7AF3003657AD /* Products */,
+				E3FAAD7DC86FB33C19B85D41 /* Pods */,
+				1305CF5D43C404820F2CE302 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +163,13 @@
 		BBAF33461FBE7AF3003657AD /* Sinch test */ = {
 			isa = PBXGroup;
 			children = (
+				BB2293DF1FCFEC14005EC720 /* additional files */,
+				BB2293DC1FCFE721005EC720 /* Sinch test.entitlements */,
+				BBAF33781FBE7C91003657AD /* BridgingHeader.h */,
 				BBAF33471FBE7AF3003657AD /* AppDelegate.swift */,
 				BBAF33491FBE7AF3003657AD /* ViewController.swift */,
+				BB2293EA1FCFFAF0005EC720 /* LoginViewController.swift */,
+				BB2293EC1FCFFB04005EC720 /* CallViewController.swift */,
 				BBAF334B1FBE7AF3003657AD /* Main.storyboard */,
 				BBAF33511FBE7AF3003657AD /* Assets.xcassets */,
 				BBAF33531FBE7AF3003657AD /* LaunchScreen.storyboard */,
@@ -128,6 +197,19 @@
 			path = "Sinch testUITests";
 			sourceTree = "<group>";
 		};
+		E3FAAD7DC86FB33C19B85D41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EA5AC49A4EB2BD8E9CFC8E3 /* Pods-Sinch test.debug.xcconfig */,
+				1ED67B1A0AA6F610B0FA368C /* Pods-Sinch test.release.xcconfig */,
+				029F563B1177C5F39F1200A1 /* Pods-Sinch testTests.debug.xcconfig */,
+				EAF83FF6A59FFDF873AE899C /* Pods-Sinch testTests.release.xcconfig */,
+				99AECA056FA42DFB15945845 /* Pods-Sinch testUITests.debug.xcconfig */,
+				3FDF5713B2F9EDDE35B0C130 /* Pods-Sinch testUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBAF336F1FBE7AF3003657AD /* Build configuration list for PBXNativeTarget "Sinch test" */;
 			buildPhases = (
+				027D22E8FE5623A4CAE27AE2 /* [CP] Check Pods Manifest.lock */,
 				BBAF33401FBE7AF3003657AD /* Sources */,
 				BBAF33411FBE7AF3003657AD /* Frameworks */,
 				BBAF33421FBE7AF3003657AD /* Resources */,
+				0B715418AAA8E603AE63C699 /* [CP] Embed Pods Frameworks */,
+				24A12882A59440CCD851013A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBAF33721FBE7AF3003657AD /* Build configuration list for PBXNativeTarget "Sinch testTests" */;
 			buildPhases = (
+				30FDE62B2C7861E3682A5CC4 /* [CP] Check Pods Manifest.lock */,
 				BBAF33571FBE7AF3003657AD /* Sources */,
 				BBAF33581FBE7AF3003657AD /* Frameworks */,
 				BBAF33591FBE7AF3003657AD /* Resources */,
+				D440F22C967DA1A8122B2705 /* [CP] Embed Pods Frameworks */,
+				193BCA27FC557A82F9AE7E14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBAF33751FBE7AF3003657AD /* Build configuration list for PBXNativeTarget "Sinch testUITests" */;
 			buildPhases = (
+				6A01A530537C44749F455524 /* [CP] Check Pods Manifest.lock */,
 				BBAF33621FBE7AF3003657AD /* Sources */,
 				BBAF33631FBE7AF3003657AD /* Frameworks */,
 				BBAF33641FBE7AF3003657AD /* Resources */,
+				E97A6C892D1EDE8055B05287 /* [CP] Embed Pods Frameworks */,
+				119226A45398C69CD62C473A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,6 +288,14 @@
 					BBAF33431FBE7AF3003657AD = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					BBAF335A1FBE7AF3003657AD = {
 						CreatedOnToolsVersion = 9.1;
@@ -236,6 +335,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBAF33551FBE7AF3003657AD /* LaunchScreen.storyboard in Resources */,
+				BB2293E71FCFEC56005EC720 /* ringback.wav in Resources */,
+				BB2293E91FCFEC56005EC720 /* incoming.wav in Resources */,
 				BBAF33521FBE7AF3003657AD /* Assets.xcassets in Resources */,
 				BBAF334D1FBE7AF3003657AD /* Main.storyboard in Resources */,
 			);
@@ -257,12 +358,166 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		027D22E8FE5623A4CAE27AE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sinch test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B715418AAA8E603AE63C699 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sinch test/Pods-Sinch test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SinchService/SinchService.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SinchService.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sinch test/Pods-Sinch test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		119226A45398C69CD62C473A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sinch testUITests/Pods-Sinch testUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		193BCA27FC557A82F9AE7E14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sinch testTests/Pods-Sinch testTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24A12882A59440CCD851013A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sinch test/Pods-Sinch test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30FDE62B2C7861E3682A5CC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sinch testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A01A530537C44749F455524 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sinch testUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D440F22C967DA1A8122B2705 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sinch testTests/Pods-Sinch testTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E97A6C892D1EDE8055B05287 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sinch testUITests/Pods-Sinch testUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BBAF33401FBE7AF3003657AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2293EB1FCFFAF0005EC720 /* LoginViewController.swift in Sources */,
+				BB2293ED1FCFFB05005EC720 /* CallViewController.swift in Sources */,
+				BB2293E81FCFEC56005EC720 /* SINCallKitProvider.m in Sources */,
 				BBAF334A1FBE7AF3003657AD /* ViewController.swift in Sources */,
+				BB2293E61FCFEC56005EC720 /* AudioControllerDelegate.m in Sources */,
 				BBAF33481FBE7AF3003657AD /* AppDelegate.swift in Sources */,
 				BBAF33501FBE7AF3003657AD /* Sinch_test.xcdatamodeld in Sources */,
 			);
@@ -428,14 +683,18 @@
 		};
 		BBAF33701FBE7AF3003657AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA5AC49A4EB2BD8E9CFC8E3 /* Pods-Sinch test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sinch test/Sinch test.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77H87FEGZQ;
 				INFOPLIST_FILE = "Sinch test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.logeshr.Sinch-test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.omamori.dev.provider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sinch test/BridgingHeader.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,14 +702,18 @@
 		};
 		BBAF33711FBE7AF3003657AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED67B1A0AA6F610B0FA368C /* Pods-Sinch test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sinch test/Sinch test.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77H87FEGZQ;
 				INFOPLIST_FILE = "Sinch test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.logeshr.Sinch-test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.omamori.dev.provider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sinch test/BridgingHeader.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +721,7 @@
 		};
 		BBAF33731FBE7AF3003657AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029F563B1177C5F39F1200A1 /* Pods-Sinch testTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +739,7 @@
 		};
 		BBAF33741FBE7AF3003657AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF83FF6A59FFDF873AE899C /* Pods-Sinch testTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +757,7 @@
 		};
 		BBAF33761FBE7AF3003657AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99AECA056FA42DFB15945845 /* Pods-Sinch testUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +774,7 @@
 		};
 		BBAF33771FBE7AF3003657AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FDF5713B2F9EDDE35B0C130 /* Pods-Sinch testUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
